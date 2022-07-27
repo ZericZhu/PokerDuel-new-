@@ -1,0 +1,106 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-094df052db77241f3bee926fa284d2c9
+# Starting compiling UnityEngine.UI.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f1e6acc4ed39f481ca64b70a48beb7c9
+# Starting compiling UnityEditor.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cc2ad29aa9c5843c7891cdec85ad02ae
+# Starting compiling UnityEditor.UI.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b3a3322db4b33479d83e581d8f2eb542
+# Starting compiling Unity.Services.Core.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5aebfa5d397b5449bb1c188e23fe4509
+# Starting compiling Unity.VSCode.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9837112352c7f40a294e77b9ebc9232f
+# Starting compiling Unity.VisualStudio.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-aef461dfffd124d7ead93832e2f931c6
+# Starting compiling Unity.Timeline.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e33444bcae77d4216baa241cc26dfb12
+# Starting compiling Unity.TextMeshPro.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1cd606e6a2cc44202adf4f3376f0fc23
+# Starting compiling Unity.PlasticSCM.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3b991316382bc4a14b42742509717eac
+# Starting compiling Unity.Rider.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d09fb5fc0fc7f4cc797824f5a1bc5a15
+# Starting compiling where-allocations.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-612713184eb8a44e291aa03d3f83883b
+# Starting compiling Telepathy.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-424085e0a762a4dffbac181849f126d2
+# Starting compiling Mirror.CompilerSymbols.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3d3a5417300e54fdaae24743b1eeb2a6
+# Starting compiling ParrelSync.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-675b5e3b306024d02b1eb1b7ab675b72
+# Starting compiling kcp2k.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b0fb16e8529a24662aa97d308f034812
+# Starting compiling Unity.Timeline.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2f57c196711c04baa9aab56b8b33d85a
+# Starting compiling Unity.CollabProxy.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-443ad14b9d09e4cf680defafc81cc5bd
+# Starting compiling Mirror.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-33595d3f3435c4bc39acf4538c8c76af
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5cd1f53382c8248b0ac4f86ccc0b79f1
+# Starting compiling Unity.Mirror.CodeGen.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9453a1eceee774f7f9fe6738a6700e6c
+# Starting compiling Mirror.Components.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bf0ef29a1c50d4166b352c6ef81b04a4
+# Starting compiling Mirror.Authenticators.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-aa72e4c17631946ac87c3bb8502125f6
+# Starting compiling SimpleWebTransport.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-651dfb5a8b9d94f8085a2fe07532745c
+# Starting IL post processing on UnityEngine.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-c03faf106f994463db92bbc682c2838f"
+# Starting compiling Mirror.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0b886b089c72642af959e6f85205d328
+# Starting compiling Mirror.Examples.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5781a88cde0dd478ba07ffb26820ca70
+# Starting IL post processing on UnityEngine.UI.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-cd1ecb4122d364b9d92adc4c2e6882b2"
+# Starting IL post processing on UnityEditor.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-bc907df32660e414194a2c000d531e7b"
+# Starting IL post processing on UnityEditor.UI.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-91a83e7f3f1cf4fe7bde0bb85fe114f4"
+# Starting IL post processing on Unity.Services.Core.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-2040f5cfcb6104bce9897819de9d022d"
+# Starting IL post processing on Unity.VSCode.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-c1d87663394834de9bb41d9da66cd802"
+# Starting IL post processing on where-allocations.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-6c9ed88cb40274e3b9998402996bfc24"
+# Starting IL post processing on Unity.VisualStudio.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-8fe5f5e32560b42108f826e1235e13c5"
+# Starting IL post processing on Unity.Timeline.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-773f120fc8d6248eabba03a91cf9e146"
+# Starting IL post processing on Mirror.CompilerSymbols.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-8abe934d20be84296b5b117a3e2c2744"
+# Starting IL post processing on Unity.Rider.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-111f440331a684387adca804da4b8144"
+# Starting IL post processing on Telepathy.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-6a665522981fc4daea0359987d8531f0"
+# Starting IL post processing on ParrelSync.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-a73830184781c4b828ac4af8ff296227"
+# Starting IL post processing on Unity.PlasticSCM.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-d4793e7b81e16435fbc4b6d4de10c2c5"
+# Starting IL post processing on kcp2k.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-0f61d8f90d50c4de5b48fd14562d0988"
+# Starting IL post processing on Unity.TextMeshPro.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-cddfeb3c9b5bf4292b2f07e0ebf9f9e9"
+# Starting IL post processing on Unity.CollabProxy.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-5de73ae3c7212456389e1fbf72308f57"
+# Starting compiling Assembly-CSharp.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a654c81c61adc4285b02d2e93357d266
+# Starting IL post processing on Mirror.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-9353ae5de513d46d7be1c17d2afaa2c7"
+# Starting IL post processing on Unity.TextMeshPro.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-54876422edc4740a99429385d76708ee"
+# Starting IL post processing on Unity.Timeline.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-7e80904f0ab4e429bbd36c727d95fd73"
+# Starting IL post processing on Mirror.Components.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-e58a96ab3c94c4c99a2ed253a82426d1"
+# Starting IL post processing on SimpleWebTransport.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-602445dce6a264f289102daf44853ab0"
+# Starting IL post processing on Mirror.Authenticators.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-2780238b98d98467e99ef1981a110320"
+# Starting IL post processing on Mirror.Editor.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-44a020b81d4544a7d8e92f375a8126ac"
+# Starting IL post processing on Mirror.Examples.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-9a3cef1fc2b44497f9e2b522ccdf5684"
+# Starting IL post processing on Assembly-CSharp.dll
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/ericzhu/Documents/GitHub/PokerDuel(new)/PokerDuel/Temp/UnityTempFile-cacf9026ae636402db8433eb0eb7ae03"
