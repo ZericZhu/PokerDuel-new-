@@ -91,9 +91,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1492}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1820}
     - Class: 114
       Script: {instanceID: 1822}
     - Class: 114
@@ -128,8 +130,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4674}
     - Class: 114
       Script: {instanceID: 4774}
-    - Class: 114
-      Script: {instanceID: 21110}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,6 +297,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: LatencySimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
   - hash:
       serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
@@ -473,7 +479,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: e22bcdd15d592572fabeab707ebf22d9
+      Hash: 59ad3a0118cb04f4205edf4a11edc1fc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameMan
@@ -713,7 +719,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: fcfab465dd85f3bf45443245c0dabcca
+      Hash: 3645b85764b53d7bfb3d627138ce7913
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CubeScript
@@ -1161,13 +1167,7 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
-      Hash: b00690c9771272304fb68000bfac500e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
   platform: 2
   scenePathNames:
   - Assets/Scenes/DuelScene.unity
-  playerPath: /Users/ericzhu/Desktop/PokerMacBuilds/PokerBuild(1.0).app
+  playerPath: /Users/ericzhu/Desktop/PokerMacBuilds/PokerBuild(1.1).app

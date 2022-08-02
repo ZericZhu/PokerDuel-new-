@@ -5,16 +5,28 @@ using Mirror;
 
 public class PlayerScript : NetworkBehaviour
 {
-    [SyncVar]
-    public int canMoveTeam = 1;
     public static PlayerScript instance;
     private void Start()
     {
-        instance = this;
+        if (isServer)
+        {
+            instance = this;
+        }
+        else
+        {
+            if (isLocalPlayer)
+            {
+                instance = this;
+            }
+            else
+            {
+                Destroy(this);
+            }
+        }
     }
     private void Update()
     {
-        if (canMoveTeam != GameMan.MyteamID) return;
+        if (GameMan.instance.canMoveTeam != GameMan.MyteamID) return;
         if (GameMan._isMoving) return;
 
         if (Input.GetKeyDown(KeyCode.A)) CmdIWannaMove(Vector3.left);
@@ -27,16 +39,19 @@ public class PlayerScript : NetworkBehaviour
     [Command]
     public void CmdIWannaMove(Vector3 MoveDirection)
     {
-        GameMan.instance.RpcMoveSpecific(canMoveTeam,MoveDirection);
+        GameMan.instance.RpcMoveSpecific(GameMan.instance.canMoveTeam, MoveDirection);
     }
     [Command]
     public void CmdSwitchTurn()
     {
-        if (canMoveTeam == 1)
+        if (GameMan.instance.canMoveTeam == 1)
         {
-            canMoveTeam = 2;
-            return;
+            GameMan.instance.canMoveTeam = 2;
         }
-        canMoveTeam = 1;
+        else
+        {
+            GameMan.instance.canMoveTeam = 1;
+        }
     }
+
 }

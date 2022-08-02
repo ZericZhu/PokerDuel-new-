@@ -420,9 +420,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  canMoveTeam: 0
   Cube1: {fileID: 4177627023510310579}
   Cube2: {fileID: 4177627022755350276}
   _rollSpeed: 5
+  MainSlotParent: {fileID: 4177627024107023131}
+  MinorSlotParent: {fileID: 4177627023262851648}
+  MainScoreDisplay: {fileID: 4177627023502887107}
+  MinorScoreDisplay: {fileID: 4177627023503225456}
+  UISlotEmpty: {fileID: 2100000, guid: 82e0873a5b7ea4772a1a062b0004e4e7, type: 2}
+  timerImage: {fileID: 4177627024070054800}
+  TimerDefault: {r: 0.5647059, g: 0.5647059, b: 0.5647059, a: 1}
+  TimerRed: {r: 0.46274513, g: 0.14509805, b: 0.14901961, a: 1}
 --- !u!1 &1802042868252418571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,6 +2590,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followspeed: 0
+  slotParent: {fileID: 0}
+  myScoreDisplay: {fileID: 0}
+  myCurrentIndex: 0
+  myScore: 0
 --- !u!1 &4177627022779500484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,7 +4433,7 @@ GameObject:
   - component: {fileID: 4177627023262851649}
   - component: {fileID: 4177627023262851650}
   m_Layer: 5
-  m_Name: OpoInventory
+  m_Name: MinorSlotParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4979,7 +4992,7 @@ GameObject:
   - component: {fileID: 4177627023502887108}
   - component: {fileID: 4177627023502887107}
   m_Layer: 5
-  m_Name: Score
+  m_Name: MainScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5058,7 +5071,7 @@ GameObject:
   - component: {fileID: 4177627023503225457}
   - component: {fileID: 4177627023503225456}
   m_Layer: 5
-  m_Name: OpponentScore
+  m_Name: MinorScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5202,6 +5215,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followspeed: 0
+  slotParent: {fileID: 0}
+  myScoreDisplay: {fileID: 0}
+  myCurrentIndex: 0
+  myScore: 0
 --- !u!23 &4177627023510310584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7173,7 +7190,7 @@ GameObject:
   - component: {fileID: 4177627024038209508}
   - component: {fileID: 4177627024038209507}
   m_Layer: 5
-  m_Name: YellowBack
+  m_Name: grayBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7405,7 +7422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -275}
+  m_AnchoredPosition: {x: -0, y: -276}
   m_SizeDelta: {x: 800, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4177627024070054800
@@ -7446,25 +7463,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4177627024070054798}
   m_CullTransparentMesh: 1
---- !u!95 &4177627024070054802
-Animator:
-  serializedVersion: 3
+--- !u!111 &4177627024070054802
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4177627024070054798}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cad416f1941d143a5ae23164247a5372, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: feea2ee5e932a49b0bfc46afe4ccafd6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: feea2ee5e932a49b0bfc46afe4ccafd6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &4177627024077683126
 GameObject:
   m_ObjectHideFlags: 0
@@ -7557,7 +7571,7 @@ GameObject:
   - component: {fileID: 4177627024107023132}
   - component: {fileID: 4177627024107023133}
   m_Layer: 5
-  m_Name: Inventory
+  m_Name: MainSlotParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

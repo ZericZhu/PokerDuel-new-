@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{E7D6F0B6-902C-4678-2BD6-3CFFC54D51E4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScriptFixed/CubeScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScriptFixed/GameMan.cs">
     <Files>
-      <File FileName="Assets/ScriptFixed/GameMan.cs" Line="13" Column="12" />
-      <File FileName="Assets/ScriptFixed/NetworkManagerPoker.cs" Line="21" Column="2" />
-      <File FileName="Assets/ScriptFixed/PlayerScript.cs" Line="25" Column="1" />
-      <File FileName="Assets/ScriptFixed/CardManager.cs" Line="32" Column="14" />
-      <File FileName="Assets/ScriptFixed/CubeScript.cs" Line="13" Column="32" />
+      <File FileName="Assets/ScriptFixed/CubeScript.cs" Line="69" Column="24" />
+      <File FileName="Assets/ScriptFixed/GameMan.cs" Line="228" Column="59" />
+      <File FileName="Assets/ScriptFixed/PlayerScript.cs" Line="37" Column="1" />
+      <File FileName="Assets/ScriptFixed/NetworkManagerPoker.cs" Line="18" Column="10" />
+      <File FileName="Assets/Script/CameraFollow.cs" Line="13" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="757912cc-cd20-4aff-8d58-cdf5132a1d11" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f4bd808-5a12-467b-ac8c-40ec5e14b634" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
