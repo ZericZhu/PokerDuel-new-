@@ -53,26 +53,54 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/ParrelSync/Examples/CustomArgumentExample.cs" />
+    <Compile Include="Assets/ScriptFixed/CardManager.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/Examples/CustomArgumentExample.cs" />
+    <Compile Include="Assets/ScriptFixed/CardInfo.cs" />
+    <Compile Include="Assets/ScriptFixed/GameMan.cs" />
+    <Compile Include="Assets/ScriptFixed/NetworkManagerPoker.cs" />
+    <Compile Include="Assets/Script/CameraFollow.cs" />
+    <Compile Include="Assets/ScriptFixed/CubeScript.cs" />
+    <Compile Include="Assets/ScriptFixed/PlayerScript.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll" />
-    <None Include="Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll" />
-    <None Include="Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
-    <None Include="Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll" />
-    <None Include="Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
-    <None Include="Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll" />
-    <None Include="Assets/Mirror/Version.txt" />
-    <None Include="Assets/Mirror/Readme.txt" />
-    <None Include="Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
-    <None Include="Assets/ParrelSync/VERSION.txt" />
-    <None Include="Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
-    <None Include="Assets/Mirror/Notice.txt" />
-    <None Include="Assets/Mirror/Plugins/Mono.Cecil/License.txt" />
-    <None Include="Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
-    <None Include="Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
-    <None Include="Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
-    <None Include="Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/ExternalPackage/Mirror/Version.txt" />
+    <None Include="Assets/ExternalPackage/Mirror/Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/ExternalPackage/ParrelSync/VERSION.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/ExternalPackage/Mirror/Notice.txt" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/License.txt" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/ExternalPackage/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -297,20 +325,20 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -689,6 +717,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{934BB66E-7180-8E6D-1258-85F2FD5CDF56}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
     <ProjectReference Include="kcp2k.csproj">
       <Project>{DF639528-0A17-A0ED-15AA-58315F1E88E0}</Project>
       <Name>kcp2k</Name>
@@ -696,18 +728,6 @@
     <ProjectReference Include="Mirror.Editor.csproj">
       <Project>{1135282E-2774-29F5-2349-310A5B3C91AE}</Project>
       <Name>Mirror.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{42701672-3659-ED63-F90B-34AD7D6320B2}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{F25EDA0D-84FD-B71E-EBBB-55F8F80E4D60}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{7B7116FC-D9CA-6A9B-46D0-52018E7BDCF5}</Project>
-      <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
       <Project>{3407B15E-AEBB-4CB2-ED02-018D4A43A4C6}</Project>
@@ -721,13 +741,21 @@
       <Project>{67033F1B-0E40-6CE1-BE17-D3D2233632CB}</Project>
       <Name>Mirror.Authenticators</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.csproj">
-      <Project>{934BB66E-7180-8E6D-1258-85F2FD5CDF56}</Project>
-      <Name>Mirror</Name>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{F25EDA0D-84FD-B71E-EBBB-55F8F80E4D60}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{42701672-3659-ED63-F90B-34AD7D6320B2}</Project>
+      <Name>where-allocations</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
       <Project>{5829DCF8-ADD0-B1BB-5FFF-1639FA3C0587}</Project>
       <Name>SimpleWebTransport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{7B7116FC-D9CA-6A9B-46D0-52018E7BDCF5}</Project>
+      <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="ParrelSync.csproj">
       <Project>{2C0D1DC5-949E-37FA-6BEB-66C9C89CE99A}</Project>

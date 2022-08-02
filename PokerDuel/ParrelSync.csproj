@@ -53,21 +53,21 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/ParrelSyncAssetModificationProcessor.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/EditorQuit.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/UpdateChecker.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/ClonesManager.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/ClonesManagerWindow.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/Preferences.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/ValidateCopiedFoldersIntegrity.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/ExternalLinks.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/FileUtilities.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/Project.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/NonCore/OtherMenuItem.cs" />
-    <Compile Include="Assets/ParrelSync/ParrelSync/Editor/NonCore/AskFeedbackDialog.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/Project.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/ExternalLinks.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/ClonesManagerWindow.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/AssetModBlock/ParrelSyncAssetModificationProcessor.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/ClonesManager.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/ValidateCopiedFoldersIntegrity.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/NonCore/OtherMenuItem.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/UpdateChecker.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/NonCore/AskFeedbackDialog.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/FileUtilities.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/AssetModBlock/EditorQuit.cs" />
+    <Compile Include="Assets/ExternalPackage/ParrelSync/ParrelSync/Editor/Preferences.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/ParrelSync/ParrelSync/projectCloner.asmdef" />
+    <None Include="Assets/ExternalPackage/ParrelSync/ParrelSync/projectCloner.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -320,16 +320,16 @@
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

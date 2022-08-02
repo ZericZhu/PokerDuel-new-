@@ -53,27 +53,27 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Mirror/Editor/Empty/Logging/LogLevelsGUI.cs" />
-    <Compile Include="Assets/Mirror/Editor/SceneDrawer.cs" />
-    <Compile Include="Assets/Mirror/Editor/InspectorHelper.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/Logging/NetworkLogSettingsEditor.cs" />
-    <Compile Include="Assets/Mirror/Editor/AndroidManifestHelper.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/ScriptableObjectUtility.cs" />
-    <Compile Include="Assets/Mirror/Editor/SyncVarDrawer.cs" />
-    <Compile Include="Assets/Mirror/Editor/SyncObjectCollectionsDrawer.cs" />
-    <Compile Include="Assets/Mirror/Editor/SyncVarAttributeDrawer.cs" />
-    <Compile Include="Assets/Mirror/Editor/NetworkScenePostProcess.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/Logging/LogLevelWindow.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/LogLevelWindow.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/Logging/LogSettingsEditor.cs" />
-    <Compile Include="Assets/Mirror/Editor/NetworkInformationPreview.cs" />
-    <Compile Include="Assets/Mirror/Editor/Empty/EnterPlayModeSettingsCheck.cs" />
-    <Compile Include="Assets/Mirror/Editor/NetworkManagerEditor.cs" />
-    <Compile Include="Assets/Mirror/Editor/NetworkBehaviourInspector.cs" />
-    <Compile Include="Assets/Mirror/Editor/EditorHelper.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/ScriptableObjectUtility.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/SyncVarDrawer.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/SyncObjectCollectionsDrawer.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/SyncVarAttributeDrawer.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/NetworkInformationPreview.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/EditorHelper.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/Logging/LogLevelWindow.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/EnterPlayModeSettingsCheck.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/NetworkManagerEditor.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/NetworkBehaviourInspector.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/Logging/LogLevelsGUI.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/SceneDrawer.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/InspectorHelper.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/Logging/NetworkLogSettingsEditor.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/AndroidManifestHelper.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/NetworkScenePostProcess.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/LogLevelWindow.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Editor/Empty/Logging/LogSettingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Mirror/Editor/Mirror.Editor.asmdef" />
+    <None Include="Assets/ExternalPackage/Mirror/Editor/Mirror.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -326,16 +326,16 @@
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

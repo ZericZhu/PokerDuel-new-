@@ -53,27 +53,27 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpServerConnection.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpClientConnectionNonAlloc.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpServer.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpConnection.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/Extensions.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClientConnection.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClient.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Pool.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerConnectionNonAlloc.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Utils.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/AssemblyInfo.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Segment.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpChannel.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpClientNonAlloc.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpHeader.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/Log.cs" />
-    <Compile Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Kcp.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Pool.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerConnectionNonAlloc.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpHeader.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpServerConnection.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpClientConnectionNonAlloc.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/Extensions.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp/AssemblyInfo.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Segment.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Kcp.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpServer.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpConnection.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClientConnection.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClient.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpChannel.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpClientNonAlloc.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Utils.cs" />
+    <Compile Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/Log.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp2k.asmdef" />
+    <None Include="Assets/ExternalPackage/Mirror/Runtime/Transports/KCP/kcp2k/kcp2k.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -326,16 +326,16 @@
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets/ExternalPackage/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

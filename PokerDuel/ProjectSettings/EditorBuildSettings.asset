@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DuelScene.unity
+    guid: 8afccdff61c8d4c64a05c97c5e278a32
   m_configObjects: {}
